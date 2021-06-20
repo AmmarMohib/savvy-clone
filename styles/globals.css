@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.header{
+  display: flex;  
+  height: 70px;
+  background-color: #f4f5f7;
+  justify-content: space-between;
+}
+.container-fluid{
+  background-color: #f4f5f7;
+}
+.header div{
+  display: flex;
+  flex-direction: row;
+}
+.header a{
+  margin-inline: 10px;
+ font-size: 25px;
+ line-height: 2.5;
+ color: black;
+ font-family: sans-serif;
+}
+#logo-div p{
+    color: black;
+    line-height: 1;
+    font-size: 25px;
+    display: none;
+}
+.logo{
+  margin-left: 10px;
+  width: 200px;
+  height: 65px;
+  filter:brightness(0.96);
+  margin-left: 100px;
+}
+.nav-item a{
+  font-family: 'Oswald', sans-serif;
+  font-size: 17px;
+}
+
+@media screen and (width:1422){
+  .logo{
+    display: none;
+  }
+}
+.n{
+  display: flex;
+  flex-direction: column;
+}
